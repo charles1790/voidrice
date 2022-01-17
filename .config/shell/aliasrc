@@ -1,5 +1,5 @@
 #!/bin/sh
-
+. pw
 # CHARLES EDITS AT THE TOP
 
 # for connecting to my bluetooth audio devies. The bluetooth.service service is set to run at boot in systemd
