@@ -21,10 +21,10 @@ dc() { # disconnect both the speaker and earbuds
 }
 
 # for connecting the the UMass UNIX server
-alias umb="sshpass -p XtraUMB11!! ssh charles@users.cs.umb.edu"
+alias umb="sshpass -p $UMBPASS ssh charles@users.cs.umb.edu"
 
 # for charlesw.xyz and whittlesey.xyz login
-alias charlesw="sshpass -p '*6Na8.-57qJ=?So_' ssh root@charlesw.xyz"
+alias charlesw="sshpass -p $CHARLESWPASS ssh root@charlesw.xyz"
 
 # Use neovim for vim if present.
 [ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
